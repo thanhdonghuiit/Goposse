@@ -1,0 +1,4 @@
+github "goposse/haitch" "0.6.2"
+git "git@gitlab.com:posse-internal/ioskit.core.git" "0.4.2"
+git "git@gitlab.com:posse-internal/ioskit.ui.git" "0.4.8"
+git "git@gitlab.com:posse-internal/ioskit.networking.git" "0.4.2"
