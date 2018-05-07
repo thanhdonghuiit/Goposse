@@ -129,8 +129,6 @@ final class HomeTableViewCell: UITableViewCell {
         return button
     }()
     
- 
-    
     private lazy var dateLabel: UILabel = {
         var label: UILabel = UILabel()
         label.backgroundColor = Theme.Color.MainFeed.DeliveryNotficationView.DateLabelBackground
@@ -144,7 +142,6 @@ final class HomeTableViewCell: UITableViewCell {
         return label
     }()
     
-
     private lazy var medicationLabelPool: [UILabel] = {
         var views: [UILabel] = []
         return views
@@ -161,6 +158,7 @@ final class HomeTableViewCell: UITableViewCell {
     {
         callBack?()
     }
+    
     private func setupViewHierarchy() {
         addSubview(cardView)
         cardView.addSubview(badgeImageView)
@@ -173,6 +171,7 @@ final class HomeTableViewCell: UITableViewCell {
         cardView.addSubview(button2)
         
     }
+    
     private func configureConstraints() {
         cardView.snp.makeConstraints {  make in
             make.edges.equalTo(self).inset(UIEdgeInsets.init(top: 5, left: 5, bottom: 50, right: 5))
@@ -232,15 +231,7 @@ final class HomeTableViewCell: UITableViewCell {
             make.bottom.equalTo(cardView.snp.bottom).inset(1)
             
         }
-        
-        
     }
-    
-  
-    
-   
-    
-    
     // MARK: - Lazy Initialization
    
     

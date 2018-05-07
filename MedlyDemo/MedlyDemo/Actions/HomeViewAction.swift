@@ -136,9 +136,11 @@ class HomeViewAction: BaseAction, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 2
     }
+    
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 150
     }
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView: HomeHeaderView = HomeHeaderView(frame: CGRect.zero)
         headerView.backgroundColor = UIColor.clear

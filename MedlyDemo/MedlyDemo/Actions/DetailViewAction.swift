@@ -216,8 +216,6 @@ class DetailViewAction: BaseAction {
             make.bottom.equalTo(bottomView.snp.bottom).inset(0)
             
         }
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
